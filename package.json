@@ -1,0 +1,19 @@
+{
+  "name": "latestporfoliowebsite",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polkon1325/LatestPortfolioWebsite.git"
+  },
+  "author": "Vryan Gahoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polkon1325/LatestPortfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/polkon1325/LatestPortfolioWebsite#readme"
+}
