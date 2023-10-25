@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/polkon1325/LatestPortfolioWebsite/issues"
   },
-  "homepage": "https://github.com/polkon1325/LatestPortfolioWebsite#readme"
+  "homepage": "https://github.com/polkon1325/LatestPortfolioWebsite#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.4"
+  }
 }
