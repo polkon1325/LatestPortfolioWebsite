@@ -554,8 +554,16 @@ video {
   height: 65%;
 }
 
+.h-1\/4 {
+  height: 25%;
+}
+
 .w-\[100vw\] {
   width: 100vw;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .bg-gray-600 {
