@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dkm-text-setting{
+	@apply dark:text-white text-black
+}
+
+.dkm-bg-setting{
+	@apply dark:bg-black bg-white
+}

@@ -534,16 +534,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .flex {
   display: flex;
-}
-
-.h-\[10\%\] {
-  height: 10%;
 }
 
 .h-\[100vh\] {
@@ -554,34 +546,127 @@ video {
   height: 65%;
 }
 
-.h-1\/4 {
-  height: 25%;
-}
-
 .w-\[100vw\] {
   width: 100vw;
 }
 
-.w-full {
-  width: 100%;
+.justify-center {
+  justify-content: center;
 }
 
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+.overflow-hidden {
+  overflow: hidden;
 }
 
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+.fill-slate-600 {
+  fill: #475569;
 }
 
 .pl-5 {
   padding-left: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.dkm-text-setting {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+:is(.dark .dkm-text-setting) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dkm-bg-setting {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dkm-bg-setting) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:fill-white) {
+  fill: #fff;
+}
+
+:is(.dark .dark\:stroke-white) {
+  stroke: #fff;
+}
+
+@media (min-width: 320px) {
+  .xsm\:flex {
+    display: flex;
+  }
+
+  .xsm\:h-1\/4 {
+    height: 25%;
+  }
+
+  .xsm\:h-\[10\%\] {
+    height: 10%;
+  }
+
+  .xsm\:w-full {
+    width: 100%;
+  }
+
+  .xsm\:w-4\/5 {
+    width: 80%;
+  }
+
+  .xsm\:w-1\/5 {
+    width: 20%;
+  }
+
+  .xsm\:w-3\/4 {
+    width: 75%;
+  }
+
+  .xsm\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .xsm\:justify-center {
+    justify-content: center;
+  }
+
+  .xsm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xsm\:justify-around {
+    justify-content: space-around;
+  }
+
+  .xsm\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .xsm\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .xsm\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .xsm\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .xsm\:align-middle {
+    vertical-align: middle;
+  }
 }
 
 @media (min-width: 1536px) {

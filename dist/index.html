@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,34 +9,41 @@
 </head>
 
 <!-- Body: will change the color of white -->
-<body class="2xl:flex h-[100vh] w-[100vw]">
+<body class="2xl:flex h-[100vh] w-[100vw] overflow-hidden">
 
 	<!-- Footer class -->
 	<!-- 2xl:h-full 2xl:w-[10%] -->
-	<div class="bg-gray-600 xsm:{flex, h-[10%], w-full, mb-5 }">
-		<nav>
-			<a class="xsm:{}" href="">link 1</a>
-			<a class href="">link 2</a>
-			<a class href="">link 3</a>
-			<br>
-			trying flex
+	<div class="dkm-bg-setting xsm:h-[10%] xsm:w-full">
+		<nav class="xsm:flex xsm:w-3/4 xsm:pl-5 xsm:pt-5 xsm:pr-10 xsm:justify-around">
+			<a href="https://www.linkedin.com/in/vryanluisgahoy/">
+				<img src="/src/icons/linkedin-icon.svg" alt="">
+			</a>
+			<a href="https://github.com/polkon1325">
+				<img src="/src/icons/github-icon.svg" alt="">
+			</a>
+			<a href="https://www.facebook.com/vryan.luisgahoy">
+				<img src="/src/icons/facebook-icon.svg" alt="">
+			</a>
 		</nav>
+		<div class="xsm:w-1/5"></div>
 	</div>
 
 	<!-- Introduction -->
-	<div class="xsm:{w-full, h-1/4, pl-5 }">
+	<div class="dkm-bg-setting xsm:w-full xsm:h-1/4 xsm:pl-5 xsm:pt-5">
 		<!-- textbox -->
-		<h1 class="xsm:{w-full, text-xl, font-semibold }">Vryan Luis Gahoy</h1>
+		<h1 class="xsm:w-full dkm-text-setting text-xl font-semibold">Vryan Luis Gahoy</h1>
 		<br>
-		<h3>An aspiring fullstack developer</h3>
-		<h3>Ready to face on new challenges</h3>
+		<h3 class="dkm-text-setting">An aspiring fullstack developer</h3>
+		<h3 class="dkm-text-setting">Ready to face on new challenges</h3>
 	</div>
 
 	<!-- Menu -->
-	<div class="bg-slate-600 xsm:{w-full, h-[65%] }">
+	<div class="dkm-bg-setting xsm:w-full h-[65%]">
 		<nav>
 
 		</nav>
 	</div>
+	<script src="/src/dk_mode_toggle.js"></script>
+	
 </body>
 </html>
