@@ -534,36 +534,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.flex {
-  display: flex;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
-}
-
-.h-\[65\%\] {
-  height: 65%;
-}
-
-.w-\[100vw\] {
-  width: 100vw;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
 
-.fill-slate-600 {
-  fill: #475569;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-xl {
@@ -587,7 +564,7 @@ video {
 
 .dkm-bg-setting {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(242 235 221 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dkm-bg-setting) {
@@ -595,15 +572,15 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:fill-white) {
-  fill: #fff;
-}
-
-:is(.dark .dark\:stroke-white) {
-  stroke: #fff;
-}
-
 @media (min-width: 320px) {
+  .xsm\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
+  .xsm\:mr-7 {
+    margin-right: 1.75rem;
+  }
+
   .xsm\:flex {
     display: flex;
   }
@@ -616,24 +593,28 @@ video {
     height: 10%;
   }
 
+  .xsm\:h-\[100svh\] {
+    height: 100svh;
+  }
+
+  .xsm\:h-\[65\%\] {
+    height: 65%;
+  }
+
+  .xsm\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .xsm\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .xsm\:w-\[100svw\] {
+    width: 100svw;
+  }
+
   .xsm\:w-full {
     width: 100%;
-  }
-
-  .xsm\:w-4\/5 {
-    width: 80%;
-  }
-
-  .xsm\:w-1\/5 {
-    width: 20%;
-  }
-
-  .xsm\:w-3\/4 {
-    width: 75%;
-  }
-
-  .xsm\:justify-end {
-    justify-content: flex-end;
   }
 
   .xsm\:justify-center {
@@ -644,12 +625,21 @@ video {
     justify-content: space-between;
   }
 
-  .xsm\:justify-around {
-    justify-content: space-around;
+  .xsm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
-  .xsm\:justify-evenly {
-    justify-content: space-evenly;
+  .xsm\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .xsm\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .xsm\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .xsm\:pl-5 {
@@ -658,14 +648,6 @@ video {
 
   .xsm\:pt-5 {
     padding-top: 1.25rem;
-  }
-
-  .xsm\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
-  .xsm\:align-middle {
-    vertical-align: middle;
   }
 }
 

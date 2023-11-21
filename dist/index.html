@@ -9,38 +9,52 @@
 </head>
 
 <!-- Body: will change the color of white -->
-<body class="2xl:flex h-[100vh] w-[100vw] overflow-hidden">
+<body class="dkm-bg-setting 2xl:flex xsm:h-[100svh] xsm:w-[100svw] overflow-hidden">
 
 	<!-- Footer class -->
 	<!-- 2xl:h-full 2xl:w-[10%] -->
-	<div class="dkm-bg-setting xsm:h-[10%] xsm:w-full">
-		<nav class="xsm:flex xsm:w-3/4 xsm:pl-5 xsm:pt-5 xsm:pr-10 xsm:justify-around">
-			<a href="https://www.linkedin.com/in/vryanluisgahoy/">
+	<div class="xsm:flex xsm:w-full xsm:h-[10%] xsm:pl-5 xsm:pt-5">
+		<nav class="xsm:flex xsm:w-2/3 xsm:mr-10 xsm:justify-between">
+			<a class="xsm:mr-7" href="https://www.linkedin.com/in/vryanluisgahoy/">
 				<img src="/src/icons/linkedin-icon.svg" alt="">
 			</a>
-			<a href="https://github.com/polkon1325">
+			<a class="xsm:mr-7" href="https://github.com/polkon1325">
 				<img src="/src/icons/github-icon.svg" alt="">
 			</a>
-			<a href="https://www.facebook.com/vryan.luisgahoy">
+			<a class="xsm:mr-7" href="https://www.facebook.com/vryan.luisgahoy">
 				<img src="/src/icons/facebook-icon.svg" alt="">
 			</a>
 		</nav>
-		<div class="xsm:w-1/5"></div>
+
+		<!-- Darkmode toggle -->
+		<div class="xsm:w-1/3 xsm:flex xsm:justify-center">
+			<a href=""><img src="/src/icons/moon-icon.svg" alt=""></a>
+		</div>
 	</div>
 
-	<!-- Introduction -->
-	<div class="dkm-bg-setting xsm:w-full xsm:h-1/4 xsm:pl-5 xsm:pt-5">
+	<!-- Textarea -->
+	<div class="xsm:w-full xsm:h-1/4 xsm:px-5 xsm:pt-5">
 		<!-- textbox -->
-		<h1 class="xsm:w-full dkm-text-setting text-xl font-semibold">Vryan Luis Gahoy</h1>
-		<br>
-		<h3 class="dkm-text-setting">An aspiring fullstack developer</h3>
-		<h3 class="dkm-text-setting">Ready to face on new challenges</h3>
+		<h1 class="xsm:w-full xsm:pb-2 dkm-text-setting text-xl font-semibold">Vryan Luis Gahoy</h1>
+		<h3 class="dkm-text-setting xsm:pb-4">An aspiring fullstack developer</h3>
+		<h3 class="dkm-text-setting">A recent graduate that is ready to face on new challenges</h3>
 	</div>
 
 	<!-- Menu -->
-	<div class="dkm-bg-setting xsm:w-full h-[65%]">
+	<div class="xsm:w-full xsm:h-[65%] xsm:pl-5 xsm:pt-5">
 		<nav>
-
+			<div class="xsm:pb-5">
+				<a class="text-5xl" href="skills-page.html">Skills</a>
+			</div>
+			<div class="xsm:pb-5">
+				<a class="text-5xl" href="">Project</a>
+			</div>
+			<div class="xsm:pb-5">
+				<a class="text-5xl" href="">About</a>
+			</div>
+			<div class="xsm:pb-5">
+				<a class="text-5xl" href="">Contact</a>
+			</div>
 		</nav>
 	</div>
 	<script src="/src/dk_mode_toggle.js"></script>
