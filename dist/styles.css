@@ -534,6 +534,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.grid {
+  display: grid;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -552,6 +568,10 @@ video {
   font-weight: 600;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .dkm-text-setting {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -564,7 +584,7 @@ video {
 
 .dkm-bg-setting {
   --tw-bg-opacity: 1;
-  background-color: rgb(242 235 221 / var(--tw-bg-opacity));
+  background-color: rgb(236 231 225 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dkm-bg-setting) {
